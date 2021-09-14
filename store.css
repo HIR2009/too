@@ -1,0 +1,93 @@
+body {
+	background: linear-gradient(#44ecb4, #4edef1, #2f9af1, #1625f0);
+	background-size: cover;
+	animation: "gradient" 15s ease infinite;
+}
+
+span {
+  color: rgb(0, 0, 0);
+}
+
+.sideNav {
+  margin:2.5% 2.1%;
+  height:100%;
+  width:0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(137, 199, 130);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sideNav a{
+  text-decoration:none;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: rgb(255,255,255);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.sideNav a:hover {
+  color: rgb(4, 13, 65);
+}
+
+.sideNav > a:first-child {
+  font-size: 50px;
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+.card {
+    box-shadow: 0 7px 8px 0 rgb(0, 0, 0);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: rgb(0, 119, 255);
+  }
+  
+  .price {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,200&display=swap');
+
+ center{
+font-size: 60px;
+font-family: 'Azeret Mono', monospace;
+ }
+
+ .button {
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
